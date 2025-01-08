@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 14);
+    height: 50px;
+    position: sticky;
+    top:0;
+    z-index: 20;
+    box-shadow: 0px 5px 10px rgb(99, 122, 122) ;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+#current-time{
+    font-size: 20px;
+    margin-right: 30px;
+    color: rgb(218, 191, 71);
+}
